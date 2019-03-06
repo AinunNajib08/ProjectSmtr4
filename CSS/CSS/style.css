@@ -1,0 +1,37 @@
+.navbar-brand {
+    color: aliceblue;
+}
+
+.jumbotron {
+    background-image: url(../img/yuhu.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.jumbotron h1 {
+    margin-top: 100px;
+    color: brown;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PC Version */
+
+@media (min-width: 992px) { 
+
+    .jumbotron {
+        margin-top: -60px;
+        background-size: cover;
+        height: 500px;
+    }
+
+ }
