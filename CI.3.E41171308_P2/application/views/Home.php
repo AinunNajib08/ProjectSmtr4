@@ -19,11 +19,11 @@
   <link href="<?php echo base_url('assets/lib/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="<?php echo base_url('assets/lib/font-awesome/css/font-awesome.min.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('assets/lib/animate/animate.min.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('assets/lib/ionicons/css/ionicons.min.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('assets/lib/owlcarousel/assets/owl.carousel.min.css');?>" rel="stylesheet">
+  <link href="<?php echo base_url('assets/lib/lightbox/css/lightbox.min.css');?>" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
@@ -45,18 +45,18 @@
     <div class="container-fluid">
 
       <div id="logo" class="pull-left">
-        <h1><a href="#intro" class="scrollto">BizPage</a></h1>
+        <h1><a href="#intro" class="scrollto">Ashiap.Com</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></a>-->
       </div>
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
+          <li class="menu-active"><a href="#intro">Beranda</a></li>
+          <li><a href="#about">Kegiatan</a></li>
+          <li><a href="#services">Informasi</a></li>
+          <li><a href="#portfolio">Tugas</a></li>
+          <li><a href="#team">Project</a></li>
           <li class="menu-has-children"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -83,7 +83,7 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
-            <div class="carousel-background"><img src="img/intro-carousel/1.jpg" alt=""></div>
+            <div class="carousel-background"><img src="<?php echo base_url('assets/img/intro-carousel/1.jpg');?>" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>We are professional</h2>
@@ -876,25 +876,23 @@
   </footer><!-- #footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
 
   <!-- JavaScript Libraries -->
-  <script 
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <script src="<?php echo base_url('assets/lib/jquery/jquery.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/jquery/jquery-migrate.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/easing/easing.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/superfish/hoverIntent.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/superfish/superfish.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/wow/wow.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/waypoints/waypoints.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/counterup/counterup.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/owlcarousel/owl.carousel.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/isotope/isotope.pkgd.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/lightbox/js/lightbox.min.js');?>"></script>
+  <script src="<?php echo base_url('assets/lib/touchSwipe/jquery.touchSwipe.min.js');?>"></script>
   <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+  <script src="<?php echo base_url('assets/contactform/contactform.js');?>"></script>
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
