@@ -14,12 +14,12 @@
 
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/flaticon.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/font-awesome.min.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/flaticon.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/owl.carousel.min.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/animate.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet">
 
 
 	<!--[if lt IE 9]>
@@ -406,11 +406,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/owl.carousel.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/circle-progress.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/main.js') ?>"></script>
+
 
 	</body>
 </html>
