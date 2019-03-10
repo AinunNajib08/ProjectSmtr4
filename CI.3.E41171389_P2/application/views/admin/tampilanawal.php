@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<meta name="keywords" content="cloud, hosting, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<link href="<?php echo base_url('assets/img/favicon.ico') ?>" rel="shortcut icon">
 
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Header section -->
 	<header class="header-section">
-		<a href="./index.html" class="site-logo"><img src="./img/logo.png" alt=""></a>
+	<a href="<?php echo base_url('assets/img/logo.png') ?>" class="site-logo" alt=""></a>
 		<div class="nav-switch">
 			<i class="fa fa-bars"></i>
 		</div>
@@ -61,7 +61,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 	<!-- Hero section -->
-	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
+	<section class="hero-section set-bg" data-setbg="<?php echo base_url('assets/img/bg.jpg') ?>">
 		<div class="container h-100">
 			<div class="hero-content text-white">
 				<div class="row">
@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<section class="features-section spad">
 		<div class="container">
 			<div class="section-title">
-				<img src="./img/section-title-icon.png" alt="#">
+				<img src="<? echo base_url('assets/img/section-title-icon.png')?>"" alt="#">
 				<p>The best out there</p>
 				<h2>See our features</h2>
 			</div>
