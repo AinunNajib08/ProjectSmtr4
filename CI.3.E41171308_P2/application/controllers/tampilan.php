@@ -7,4 +7,10 @@ class tampilan extends CI_controller{
         $this->load->view("Informasi");
     }
 }
+
+class backend extends CI_Controller{
+    function admin(){
+        $this->load->view("admin/admin.php")
+    }
+}
 ?>
