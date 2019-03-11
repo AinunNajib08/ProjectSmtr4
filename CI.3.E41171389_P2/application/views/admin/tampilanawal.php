@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<!-- Header section -->
 	<header class="header-section">
-	<a href="<?php echo base_url('assets/img/logo.png') ?>" class="site-logo" alt=""></a>
+	<a href="./index.html" class="site-logo"><img src="<?php echo base_url('assets/img/logo.png')?>" alt=""></a>
 		<div class="nav-switch">
 			<i class="fa fa-bars"></i>
 		</div>
@@ -142,7 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<section class="domain-search-section spad set-bg" data-setbg="<?php echo base_url('assets/img/domain-bg.jpg') ?>">
 		<div class="container">
 			<div class="section-title st-white">
-				<img src="./img/section-title-icon.png" alt="#">
+				<img src="<?php echo base_url('assets/img/section-title-icon.png')?>" alt="#">
 				<p>The best out there</p>
 				<h2>See our features</h2>
 			</div>
