@@ -26,7 +26,7 @@
   <link href="<?php echo base_url('assets/lib/lightbox/css/lightbox.min.css');?>" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="<?php echo base_url('assets/css/style.css');?>" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: BizPage
@@ -52,9 +52,9 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Beranda</a></li>
+          <li class="menu-active"><a href="home">Beranda</a></li>
           <li><a href="#about">Kegiatan</a></li>
-          <li><a href="#services">Informasi</a></li>
+          <li><a href="informasi">Informasi</a></li>
           <li><a href="#portfolio">Tugas</a></li>
           <li><a href="#team">Project</a></li>
           <li class="menu-has-children"><a href="">Drop Down</a>
@@ -86,37 +86,37 @@
             <div class="carousel-background"><img src="<?php echo base_url('assets/img/intro-carousel/1.jpg');?>" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>We are professional</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <h2>Kita Bisa</h2>
+                <p>Bekerjalah selagi kau mampu dan berusahalah selagi kau mempunyai kesempatan.</p>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/2.jpg" alt=""></div>
+            <div class="carousel-background"><img src="<?php echo base_url('assets/img/intro-carousel/2.jpg');?>" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>At vero eos et accusamus</h2>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                <h2>Selalu Berusaha</h2>
+                <p>Tuhan selalu bersama mereka yang selalu berusaha.</p>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/3.jpg" alt=""></div>
+            <div class="carousel-background"><img src="<?php echo base_url('assets/img/intro-carousel/3.jpg');?>" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Temporibus autem quibusdam</h2>
-                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                <h2>Waktu</h2>
+                <p>Jam tanagan begitu mahal bukan. itu karena waktu itu mahal dan berharga.</p>
                 <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
               </div>
             </div>
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/4.jpg" alt=""></div>
+            <div class="carousel-background"><img src="<?php echo base_url('assets/img/intro-carousel/4.jpg');?>" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Nam libero tempore</h2>
@@ -127,7 +127,7 @@
           </div>
 
           <div class="carousel-item">
-            <div class="carousel-background"><img src="img/intro-carousel/5.jpg" alt=""></div>
+            <div class="carousel-background"><img src="<?php echo base_url('assets/img/intro-carousel/5.jpg');?>" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
                 <h2>Magnam aliquam quaerat</h2>
@@ -895,7 +895,7 @@
   <script src="<?php echo base_url('assets/contactform/contactform.js');?>"></script>
 
   <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+  <script src="<?php echo base_url('assets/js/main.js');?>"></script>
 
 </body>
 </html>
