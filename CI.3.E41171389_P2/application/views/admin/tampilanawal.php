@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 					</div>
 				</div>
 				<div class="hero-rocket">
-					<img src="./img/rocket.png" alt="">
+					<img src="<?php echo base_url('assets/img/rocket.png') ?>" alt="">
 				</div>
 			</div>
 		</div>
@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<section class="features-section spad">
 		<div class="container">
 			<div class="section-title">
-				<img src="<? echo base_url('assets/img/section-title-icon.png')?>"" alt="#">
+				<img src="<?php echo base_url('assets/img/section-title-icon.png')?>" alt="#">
 				<p>The best out there</p>
 				<h2>See our features</h2>
 			</div>
@@ -139,7 +139,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 	<!-- Domain search section -->
-	<section class="domain-search-section spad set-bg" data-setbg="img/domain-bg.jpg">
+	<section class="domain-search-section spad set-bg" data-setbg="<?php echo base_url('assets/img/domain-bg.jpg') ?>">
 		<div class="container">
 			<div class="section-title st-white">
 				<img src="./img/section-title-icon.png" alt="#">
@@ -192,7 +192,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="ti-content">
 								<p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iacu-lis.Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. iaculis.</p>
 							</div>
-							<div class="ti-author-pic set-bg" data-setbg="img/review/1.jpg"></div>
+							<div class="ti-author-pic set-bg" data-setbg="<?php echo base_url('assets/img/review/1.jpg') ?>"></div>
 							<div class="ti-author">
 								<h6>Michael Smith</h6>
 								<span>Client</span>
@@ -202,7 +202,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="ti-content">
 								<p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iacu-lis.Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. iaculis.</p>
 							</div>
-							<div class="ti-author-pic set-bg" data-setbg="img/review/1.jpg"></div>
+							<div class="ti-author-pic set-bg" data-setbg="<?php echo base_url ('assets/img/review/1.jpg') ?>"></div>
 							<div class="ti-author">
 								<h6>Michael Smith</h6>
 								<span>Client</span>
@@ -212,7 +212,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 							<div class="ti-content">
 								<p>Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iacu-lis.Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. iaculis.</p>
 							</div>
-							<div class="ti-author-pic set-bg" data-setbg="img/review/1.jpg"></div>
+							<div class="ti-author-pic set-bg" data-setbg="<?php echo base_url('assets/img/review/1.jpg') ?>"></div>
 							<div class="ti-author">
 								<h6>Michael Smith</h6>
 								<span>Client</span>
@@ -230,7 +230,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<section class="pricing-section spad pt-0">
 		<div class="container">
 			<div class="section-title">
-				<img src="./img/section-title-icon.png" alt="#">
+				<img src="<?php echo base_url('assets/img/section-title-icon.png')?>" alt="#">
 				<p>The best out there</p>
 				<h2>See our features</h2>
 			</div>
@@ -297,7 +297,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 	<!-- Banner section -->
-	<section class="banner-section set-bg" data-setbg="img/banner-bg.jpg">
+	<section class="banner-section set-bg" data-setbg="<?php echo base_url('assets/img/banner-bg.jpg')?>">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-9 banner-text text-white">
@@ -320,7 +320,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="row">
 				<div class="col-lg-4">
 					<div class="footer-widget about-widget">
-						<img src="./img/logo.png" alt="logo">
+						<img src="<?php echo base_url('assets/img/logo.png') ?>" alt="logo">
 						<p>Proin gravida nibh vel velit auctor aliquet, aenean sollicitudin lorem quis bibendum auctor, nisi elit consequat ipsum.Proin gravida nibh vel velit auctor aliquet, aenean sollicitudin lorem quis bibendum auctor, nisi elit consequat ipsum</p>
 						<div class="fw-social social">
 							<a href="#"><i class="fa fa-pinterest"></i></a>
@@ -361,21 +361,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 						<h4 class="fw-title">Latest Posts</h4>
 						<div class="fw-latest-post-widget">
 							<div class="lp-item">
-								<div class="lp-thumb set-bg" data-setbg="img/footer-thumb/1.jpg"></div>
+								<div class="lp-thumb set-bg" data-setbg="<?php echo base_url('assets/img/footer-thumb/1.jpg') ?>"></div>
 								<div class="lp-content">
 									<h6>Web Hosting for everyone</h6>
 									<span>Oct 21, 2018</span>
 								</div>
 							</div>
 							<div class="lp-item">
-								<div class="lp-thumb set-bg" data-setbg="img/footer-thumb/2.jpg"></div>
+								<div class="lp-thumb set-bg" data-setbg="<?php echo base_url('assets/img/footer-thumb/2.jpg') ?>"></div>
 								<div class="lp-content">
 									<h6>Web Hosting for everyone</h6>
 									<span>Oct 21, 2018</span>
 								</div>
 							</div>
 							<div class="lp-item">
-								<div class="lp-thumb set-bg" data-setbg="img/footer-thumb/3.jpg"></div>
+								<div class="lp-thumb set-bg" data-setbg="<?php echo base_url('assets/img/footer-thumb/3.jpg') ?>"></div>
 								<div class="lp-content">
 									<h6>Web Hosting for everyone</h6>
 									<span>Oct 21, 2018</span>
