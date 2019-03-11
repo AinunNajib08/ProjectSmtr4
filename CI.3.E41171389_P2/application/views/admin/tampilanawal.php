@@ -1,3 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
@@ -7,19 +10,19 @@
 	<meta name="keywords" content="cloud, hosting, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<link href="<?php echo base_url('assets/img/favicon.ico') ?>" rel="shortcut icon">
 
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/flaticon.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/font-awesome.min.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/flaticon.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/owl.carousel.min.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/animate.css') ?>" rel="stylesheet">
+	<link href="<?php echo base_url('assets/css/style.css') ?>" rel="stylesheet">
 
 
 	<!--[if lt IE 9]>
@@ -36,7 +39,7 @@
 
 	<!-- Header section -->
 	<header class="header-section">
-		<a href="./index.html" class="site-logo"><img src="./img/logo.png" alt=""></a>
+	<a href="<?php echo base_url('assets/img/logo.png') ?>" class="site-logo" alt=""></a>
 		<div class="nav-switch">
 			<i class="fa fa-bars"></i>
 		</div>
@@ -58,7 +61,7 @@
 
 
 	<!-- Hero section -->
-	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
+	<section class="hero-section set-bg" data-setbg="<?php echo base_url('assets/img/bg.jpg') ?>">
 		<div class="container h-100">
 			<div class="hero-content text-white">
 				<div class="row">
@@ -81,7 +84,7 @@
 	<section class="features-section spad">
 		<div class="container">
 			<div class="section-title">
-				<img src="./img/section-title-icon.png" alt="#">
+				<img src="<? echo base_url('assets/img/section-title-icon.png')?>"" alt="#">
 				<p>The best out there</p>
 				<h2>See our features</h2>
 			</div>
@@ -406,11 +409,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/circle-progress.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="<?php echo base_url('assets/js/jquery-3.2.1.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/bootstrap.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/owl.carousel.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/circle-progress.min.js') ?>"></script>
+	<script src="<?php echo base_url('assets/js/main.js') ?>"></script>
+
 
 	</body>
 </html>
