@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Home</title>
+  <title>Informasi</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -54,7 +54,7 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="home">Beranda</a></li>
           <li><a href="#about">Kegiatan</a></li>
-          <li><a href="informasi">Informasi</a></li>
+          <li><a href="#services">Informasi</a></li>
           <li><a href="#portfolio">Tugas</a></li>
           <li><a href="#team">Project</a></li>
           <li class="menu-has-children"><a href="">Drop Down</a>
