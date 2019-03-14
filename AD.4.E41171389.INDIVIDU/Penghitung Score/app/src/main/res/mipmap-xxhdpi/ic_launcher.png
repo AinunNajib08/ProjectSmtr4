@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.util.Half EPSILON">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half Half(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half LOWEST_VALUE">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half MAX_VALUE">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half MIN_NORMAL">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half MIN_VALUE">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half NEGATIVE_INFINITY">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half NEGATIVE_ZERO">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half NaN">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half POSITIVE_INFINITY">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half POSITIVE_ZERO">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half android.util.Half valueOf(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean equals(short, short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean equals(short, short) 1">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean greater(short, short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean greater(short, short) 1">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean greaterEquals(short, short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean greaterEquals(short, short) 1">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean isInfinite(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean isNaN(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean isNormalized(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean less(short, short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean less(short, short) 1">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean lessEquals(short, short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half boolean lessEquals(short, short) 1">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half float toFloat(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half int compare(short, short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half int compare(short, short) 1">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half int getExponent(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half int getSign(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half int getSignificand(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half int halfToIntBits(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half int halfToRawIntBits(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half int hashCode(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half java.lang.String toHexString(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half java.lang.String toString(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short abs(short)">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short abs(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short ceil(short)">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short ceil(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short copySign(short, short)">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short copySign(short, short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short copySign(short, short) 1">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short floor(short)">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short floor(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short halfToShortBits(short)">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short halfToShortBits(short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short halfValue()">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short intBitsToHalf(int)">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short max(short, short)">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short max(short, short) 0">
+    <annotation name="androidx.annotation.HalfFloat"/>
+  </item>
+  <item name="android.util.Half short max(short, 
