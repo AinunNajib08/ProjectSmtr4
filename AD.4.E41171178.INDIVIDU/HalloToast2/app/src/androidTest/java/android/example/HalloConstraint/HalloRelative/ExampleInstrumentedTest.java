@@ -1,4 +1,4 @@
-package android.example.com.HalloRelative;
+package android.example.HalloConstraint.HalloRelative;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("android.example.com.HalloRelative", appContext.getPackageName());
+        assertEquals("android.example.HalloConstraint.HalloRelative", appContext.getPackageName());
     }
 }

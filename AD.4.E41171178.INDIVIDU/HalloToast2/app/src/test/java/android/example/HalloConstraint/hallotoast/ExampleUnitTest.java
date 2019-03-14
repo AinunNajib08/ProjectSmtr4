@@ -1,4 +1,4 @@
-package android.example.com.HalloRelative;
+package android.example.HalloConstraint.HalloRelative;
 
 import org.junit.Test;
 
