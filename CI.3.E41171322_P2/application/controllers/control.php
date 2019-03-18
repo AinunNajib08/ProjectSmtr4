@@ -13,7 +13,11 @@ class Control extends CI_Controller {
 	}
 
 	public function halo(){
-		$this->load->view('view_coba');
+        $data = array(
+			'judul' => "Cara Membuat View Pada CodeIgniter",
+			'tutorial' => "CodeIgniter"
+			);
+        $this->load->view('view_coba',$data);
 	}
 
 }
