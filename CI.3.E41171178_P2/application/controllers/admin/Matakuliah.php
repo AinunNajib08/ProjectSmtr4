@@ -7,6 +7,7 @@ class Matakuliah extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+
         $this->load->model("matakuliah_model");
         $this->load->library('form_validation');
     }
@@ -14,7 +15,7 @@ class Matakuliah extends CI_Controller
     public function index()
     {
         $data["matakuliah"] = $this->matakuliah_model->getAll();
-        $this->load->view("admin/tambahdata/list", $data);
+        $this->load->view("siswa/tambahdata/list", $data);
     }
 
     public function add()
@@ -28,12 +29,12 @@ class Matakuliah extends CI_Controller
             $this->session->set_flashdata('success', 'Berhasil disimpan');
         }
 
-        $this->load->view("admin/tambahdata");
+        $this->load->view("siswa/tambahdata");
     }
 
     public function edit($id = null)
     {
-        if (!isset($id)) redirect('admin/tambahdata');
+        if (!isset($id)) redirect('siswa/tambahdata');
 
         $product = $this->matakuliah_model;
         $validation = $this->form_validation;
@@ -47,7 +48,7 @@ class Matakuliah extends CI_Controller
         $data["matakuliah"] = $product->getById($id);
         if (!$data["matakuliah"]) show_404();
 
-        $this->load->view("admin/tambahdata/edit_form", $data);
+        $this->load->view("siswa/tambahdata/edit_form", $data);
     }
 
     public function delete($kode_matkul = null)
@@ -55,7 +56,7 @@ class Matakuliah extends CI_Controller
         if (!isset($kode_matkul)) show_404();
 
         if ($this->matakuliah_model->delete($kode_matkul)) {
-            redirect(site_url('admin/tambahdata'));
+            redirect(site_url('siswa/tambahdata'));
         }
     }
 }

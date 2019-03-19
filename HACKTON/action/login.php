@@ -20,13 +20,13 @@ if ($cek > 0) {
 
     $data = mysqli_fetch_assoc($login);
 
-    // cek jika user login sebagai admin
+    // cek jika user login sebagai siswa
     if ($data['level'] == "Admin") {
 
         // buat session login dan username
         $_SESSION['email'] = $username;
         $_SESSION['level'] = "Admin";
-        header("location:../pages/admin/pages/");
+        header("location:../pages/siswa/pages/");
     } else if ($data['level'] == "investor") {
         // buat session login dan username
         $_SESSION['email'] = $username;
