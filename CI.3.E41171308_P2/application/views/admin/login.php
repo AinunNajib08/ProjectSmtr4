@@ -9,30 +9,30 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin - Login</title>
+    <title>Login Admin</title>
 
     <!-- Bootstrap core CSS-->
-    <link href="<?php echo base_url('admin/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('siswa/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
 
     <!-- Custom fonts for this template-->
-    <link href="<?php echo base_url('admin/vendor/fontawesome-free/css/all.min.css');?>" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url('siswa/vendor/fontawesome-free/css/all.min.css');?>" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template-->
-    <link href="<?php echo base_url('admin/css/sb-admin.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('siswa/css/sb-siswa.css');?>" rel="stylesheet">
 
   </head>
 
-  <body class="bg-dark">
+  <body class="bg-primary">
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
-        <div class="card-header">Login</div>
+        <div class="card-header">Login Admin</div>
         <div class="card-body">
           <form>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
-                <label for="inputEmail">Email address</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Username/Email" required="required" autofocus="autofocus">
+                <label for="inputEmail">Username / Email</label>
               </div>
             </div>
             <div class="form-group">
@@ -49,22 +49,22 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="index.html">Login</a>
+            <a class="btn btn-primary btn-block" href="admin">Login</a>
           </form>
           <div class="text-center">
-            <a class="d-block small mt-3" href="register.html">Register an Account</a>
-            <a class="d-block small" href="forgot-password.html">Forgot Password?</a>
+            <a class="d-block small mt-3" href="registrasi">Daftar Akun</a>
+            <a class="d-block small" href="forgot-password.html">Lupa Password?</a>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="<?php echo base_url('admin/vendor/jquery/jquery.min.js');?>"></script>
-    <script src="<?php echo base_url('admin/vendor/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
+    <script src="<?php echo base_url('siswa/vendor/jquery/jquery.min.js');?>"></script>
+    <script src="<?php echo base_url('siswa/vendor/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="<?php echo base_url('admin/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
+    <script src="<?php echo base_url('siswa/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
 
   </body>
 
