@@ -65,15 +65,20 @@
                                         </tbody>
                                         <tfoot>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>NIS</th>
+                                                <th>Nama</th>
+                                                <th>Jenis Kelamin</th>
+                                                <th>Telp</th>
+                                                <th>Alamat</th>
+                                                <th>Edit</th>
+                                                <th>Delete</th>
                                             </tr>
                                         </tfoot>
                                     </table>
+                                </div>
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                    <br>
+                                    <input type="submit" class="btn btn-space btn-primary" name="submit" value="Simpan">
                                 </div>
                             </div>
                         </div>
