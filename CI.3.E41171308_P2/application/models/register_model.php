@@ -82,7 +82,11 @@ class register_model extends CI_Model{
         $this->tanggal_lahir = $_POST["tanggal lahir"];
         $this->alamat = $_POST["alamat"];
         $this->email = $_POST["email"];
-        $this->db->update($this->_table, $this, array('id' => $_POST['id']))
+        $this->db->update($this->_table, $this, array('id' => $_POST['id']));
     }
 
+    public function delete()
+    {
+        return $this->db->delete($this->_table, array('id' => $id));
+    }
 }
