@@ -502,9 +502,12 @@ John Abraham</span>is now following you
                                             Looks good!
                                         </div>
                                     </div>
-                                    <input type="submit" name="submit" value="Simpan">
-                                    <a href="<?php echo base_url(); ?>"><input type="button" value="Batal"></a>
-                                    <?php echo form_close(); ?>
+                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
+                                        <br>
+                                        <input type="submit" class="btn btn-space btn-primary" name="submit" value="Simpan">
+                                        <a href="<?php echo base_url(); ?>"><input class="btn btn-space btn-primary" type="button" value="Batal"></a>
+                                        <?php echo form_close(); ?>
+                                    </div>
                                 </div>
                             </form>
                         </div>
