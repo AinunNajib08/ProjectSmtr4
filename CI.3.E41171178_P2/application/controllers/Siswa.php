@@ -21,9 +21,10 @@ class Siswa extends CI_Controller {
         if($this->input->post('submit')){ // Jika user mengklik tombol submit yang ada di form
             if($this->SiswaModel->validation("save")){ // Jika validasi sukses atau hasil validasi adalah TRUE
                 $this->SiswaModel->save(); // Panggil fungsi save() yang ada di SiswaModel.php
-                redirect('siswa');
+                redirect('index.php');
             }
         }
+
 
         $this->load->view('siswa/form_tambah');
     }
