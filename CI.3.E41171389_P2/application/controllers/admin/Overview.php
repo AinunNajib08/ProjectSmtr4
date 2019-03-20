@@ -14,6 +14,9 @@ class Overview extends CI_Controller {
 =======
         // load view admin/overview.php
         $this->load->view("admin/tampilanawal");
+<<<<<<< HEAD
+>>>>>>> parent of d1ea2f6... Perbaikan Total
+=======
 >>>>>>> parent of d1ea2f6... Perbaikan Total
 	}
 }
