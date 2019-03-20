@@ -12,13 +12,13 @@
     <title>Login Admin</title>
 
     <!-- Bootstrap core CSS-->
-    <link href="<?php echo base_url('siswa/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('admin/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
 
     <!-- Custom fonts for this template-->
-    <link href="<?php echo base_url('siswa/vendor/fontawesome-free/css/all.min.css');?>" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url('admin/vendor/fontawesome-free/css/all.min.css');?>" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template-->
-    <link href="<?php echo base_url('siswa/css/sb-siswa.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('admin/css/sb-admin.css');?>" rel="stylesheet">
 
   </head>
 
@@ -60,11 +60,11 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="<?php echo base_url('siswa/vendor/jquery/jquery.min.js');?>"></script>
-    <script src="<?php echo base_url('siswa/vendor/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
+    <script src="<?php echo base_url('admin/vendor/jquery/jquery.min.js');?>"></script>
+    <script src="<?php echo base_url('admin/vendor/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="<?php echo base_url('siswa/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
+    <script src="<?php echo base_url('admin/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
 
   </body>
 
