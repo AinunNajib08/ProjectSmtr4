@@ -26,7 +26,7 @@
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
-        <div class="card-header">Login Admin</div>
+        <div class="card-header">Lupa Password</div>
         <div class="card-body">
           <form>
             <div class="form-group">
@@ -38,7 +38,13 @@
             <div class="form-group">
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
-                <label for="inputPassword">Password</label>
+                <label for="inputPassword">Password Baru</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password Baru" required="required">
+                <label for="inputPasswordbaru">Konfirmasi Password Baru</label>
               </div>
             </div>
             <div class="form-group">
@@ -49,7 +55,7 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="admin">Login</a>
+            <a class="btn btn-primary btn-block" href="index.html">Login</a>
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="registrasi">Daftar Akun</a>
