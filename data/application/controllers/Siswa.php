@@ -10,16 +10,21 @@ class Siswa extends CI_Controller {
 
     public function index(){
         $data['siswa'] = $this->SiswaModel->view();
+        $this->load->view("siswa/nav.php");
+        $this->load->view("siswa/sidebar-tambahdata.php");
         $this->load->view('siswa/index', $data);
+        $this->load->view("siswa/footer.php");
+        $this->load->view("siswa/js.php");
     }
 
     public function tambah(){
         if($this->input->post('submit')){ // Jika user mengklik tombol submit yang ada di form
             if($this->SiswaModel->validation("save")){ // Jika validasi sukses atau hasil validasi adalah TRUE
                 $this->SiswaModel->save(); // Panggil fungsi save() yang ada di SiswaModel.php
-                redirect('siswa');
+                redirect('index.php/siswa');
             }
         }
+
 
         $this->load->view('siswa/form_tambah');
     }
