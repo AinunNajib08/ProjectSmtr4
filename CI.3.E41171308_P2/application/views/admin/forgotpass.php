@@ -12,13 +12,13 @@
     <title>Login Admin</title>
 
     <!-- Bootstrap core CSS-->
-    <link href="<?php echo base_url('siswa/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('admin/vendor/bootstrap/css/bootstrap.min.css');?>" rel="stylesheet">
 
     <!-- Custom fonts for this template-->
-    <link href="<?php echo base_url('siswa/vendor/fontawesome-free/css/all.min.css');?>" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url('admin/vendor/fontawesome-free/css/all.min.css');?>" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template-->
-    <link href="<?php echo base_url('siswa/css/sb-siswa.css');?>" rel="stylesheet">
+    <link href="<?php echo base_url('admin/css/sb-admin.css');?>" rel="stylesheet">
 
   </head>
 
@@ -26,7 +26,7 @@
 
     <div class="container">
       <div class="card card-login mx-auto mt-5">
-        <div class="card-header">Login Admin</div>
+        <div class="card-header">Lupa Password</div>
         <div class="card-body">
           <form>
             <div class="form-group">
@@ -38,7 +38,13 @@
             <div class="form-group">
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
-                <label for="inputPassword">Password</label>
+                <label for="inputPassword">Password Baru</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="form-label-group">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password Baru" required="required">
+                <label for="inputPasswordbaru">Konfirmasi Password Baru</label>
               </div>
             </div>
             <div class="form-group">
@@ -49,7 +55,7 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="admin">Login</a>
+            <a class="btn btn-primary btn-block" href="index.html">Login</a>
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="registrasi">Daftar Akun</a>
@@ -60,11 +66,11 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="<?php echo base_url('siswa/vendor/jquery/jquery.min.js');?>"></script>
-    <script src="<?php echo base_url('siswa/vendor/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
+    <script src="<?php echo base_url('admin/vendor/jquery/jquery.min.js');?>"></script>
+    <script src="<?php echo base_url('admin/vendor/bootstrap/js/bootstrap.bundle.min.js');?>"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="<?php echo base_url('siswa/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
+    <script src="<?php echo base_url('admin/vendor/jquery-easing/jquery.easing.min.js');?>"></script>
 
   </body>
 

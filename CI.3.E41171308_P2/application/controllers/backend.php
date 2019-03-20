@@ -7,4 +7,12 @@
         function login(){
             $this->load->view("siswa/login");
         }
+        function registrasi(){
+            $this->load->view("admin/registrasi");
+        }
+        function forgot(){
+            $this->load->view("admin/forgotpass"); 
+        }
+
     }
+?>
