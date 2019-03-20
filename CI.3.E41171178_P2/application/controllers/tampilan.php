@@ -1,11 +1,11 @@
 <?php
     class tampilan extends CI_controller{
         function index(){
-            $this->load->view("admin/nav.php");
-            $this->load->view("admin/sidebar.php");
-            $this->load->view("admin/dashboor.php");
-            $this->load->view("admin/footer.php");
-            $this->load->view("admin/js.php");
+            $this->load->view("siswa/nav.php");
+            $this->load->view("siswa/sidebar.php");
+            $this->load->view("siswa/dashboor.php");
+            $this->load->view("siswa/footer.php");
+            $this->load->view("siswa/js.php");
 
 
         }

@@ -1,22 +1,13 @@
 <?php
 
-class tambahdata extends CI_controller{
-    function index(){
-        $this->load->view("admin/nav.php");
-        $this->load->view("admin/sidebar.php");
-        $this->load->view("admin/dashboor.php");
-            $this->load->view("admin/footer.php");
-            $this->load->view("admin/js.php");
+class tambahdata extends CI_controller
+{
+    function index()
+    {
+        $this->load->view("siswa/nav.php");
+        $this->load->view("siswa/sidebar-index.php");
+        $this->load->view("siswa/index.php");
+        $this->load->view("siswa/footer.php");
+        $this->load->view("siswa/js.php");
     }
 }
-
-class data extends CI_controller{
-    function index(){
-        $this->load->view("admin/nav.php");
-        $this->load->view("admin/sidebar.php");
-        $this->load->view("admin/dashboor.php");
-            $this->load->view("admin/footer.php");
-            $this->load->view("admin/js.php");
-    }
-}
-?>

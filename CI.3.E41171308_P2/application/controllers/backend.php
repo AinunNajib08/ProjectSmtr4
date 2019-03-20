@@ -2,10 +2,10 @@
 
     class backend extends CI_Controller{
         function admin(){
-            $this->load->view("admin/admin");
+            $this->load->view("siswa/siswa");
         }
         function login(){
-            $this->load->view("admin/login");
+            $this->load->view("siswa/login");
         }
         function registrasi(){
             $this->load->view("admin/registrasi");
