@@ -31,14 +31,18 @@
           <form>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="text" id="inputUsername" class="form-control" placeholder="Useraname" required="required" autofocus="autofocus"
+                <input type="text" id="inputUsername" class="form-control <?php echo form_eror('username') ? 
+                'is-invalid':''?>" placeholder="Useraname" required="required" autofocus="autofocus"
                 name="username">
                 <label for="inputUsername">Username</label>
+                <div class="invalid-feedback">
+                <?php echo form_eror('username') ?></div>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required"
+                <input type="password" id="inputPassword" class="form-control <?php echo form_eror('username') ? 
+                'is-invalid':''?>" placeholder="Password" required="required"
                 name="password">
                 <label for="inputPassword">Password</label>
               </div>
