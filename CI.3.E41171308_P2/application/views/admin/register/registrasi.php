@@ -24,25 +24,22 @@
 
   <body class="bg-primary">
 
-    <div class="container">
+
+    <div class="container"> 
       <div class="card card-login mx-auto mt-5">
         <div class="card-header">Registrasi Admin</div>
         <div class="card-body">
-          <form>
+          <form action="<?php base_url('index.php/admin/register/tambahkan') ?>" method="post" enctype="multipart/form-data" >
             <div class="form-group">
               <div class="form-label-group">
-                <input type="text" id="inputUsername" class="form-control <?php echo form_eror('username') ? 
-                'is-invalid':''?>" placeholder="Useraname" required="required" autofocus="autofocus"
+                <input type="text" id="inputUsername" class="form-control" placeholder="Useraname" required="required" autofocus="autofocus"
                 name="username">
                 <label for="inputUsername">Username</label>
-                <div class="invalid-feedback">
-                <?php echo form_eror('username') ?></div>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control <?php echo form_eror('username') ? 
-                'is-invalid':''?>" placeholder="Password" required="required"
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required"
                 name="password">
                 <label for="inputPassword">Password</label>
               </div>
@@ -52,7 +49,7 @@
                 <input type="text" id="inputNama" class="form-control" placeholder="Nama" required="required" autofocus="autofocus"
                 name="nama_lengkap">
                 <label for="inputNama">Nama Lengkap</label>
-              </div>
+                </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
@@ -63,10 +60,10 @@
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="date" id="inputPassword" class="form-control" placeholder="Tanggal Lahir" required="required"
+                <input type="date" id="inputTanggatLahir" class="form-control" placeholder="Tanggal Lahir" required="required"
                 name="tanggal_lahir">
                 <label for="Tanggal">Tanggal Lahir</label>
-              </div>
+            </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
@@ -90,7 +87,7 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="index.html">Login</a>
+            <a class="btn btn-primary btn-block" name="button" id="button" type="button" value="save" href="">Register</a>
           </form>
         </div>
       </div>

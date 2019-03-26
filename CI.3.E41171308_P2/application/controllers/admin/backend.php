@@ -8,7 +8,7 @@
             $this->load->view("admin/login");
         }
         function registrasi(){
-            $this->load->view("admin/registrasi");
+            $this->load->view("admin/register/registrasi");
         }
         function forgot(){
             $this->load->view("admin/forgotpass"); 

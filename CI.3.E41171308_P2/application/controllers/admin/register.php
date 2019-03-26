@@ -4,60 +4,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class register extends CI_Controller
 {
-    public function __construct()
+    function __construct()
     {
         parent::__construct();
-        $this->load->model("register_model");
-        $this->load->library('form_validation');
+        $this->load->model('register_model');
+        $this->load->helper('url');
     }
 
     public function index()
     {
-        $data["admin"] = $this->register_model->getAll();
-        $this->load->view("admin/register/registrasi", $data);
+        $data['admin'] = $this->register_model->register_data()->result();
+        $this->load->view('admin/register/registrasi', $data);
     }
 
-    public function add()
-    {
-        $admin = $this->register_model;
-        $validation = $this->form_validation;
-        $validation->set_rules($admin->rules());
-        
-        if ($validation->run()){
-            $admin->save();
-            $this->session->set_flashdata('success', 'Data Berhasil Tersimpan');
-        }
-        
-        $this->load->view("admin/register/new_form");
+    public function add(){
+        $this->load->view('admin/register/registrasi');
     }
 
-    public function edit($id = null)
-    {
-        if (!isset($id)) redirect('admin/register');
+    public function tambahkan(){
+        $username=$this->input->post('username');
+        $password=$this->input->post('password');
+        $nama_lengkap=$this->input->post('nama_lengkap');
+        $tempat_lahir=$this->input->post('tempat_lahir');
+        $tanggal_lahir=$this->input->post('tanggal_lahir');
+        $alamat=$this->input->post('alamat');
+        $email=$this->input->post('email');
 
-        $admin = $this->register_model;
-        $validation = $this->form_validation;
-        $validation->set_rules($admin->rules());
-
-        if ($validation->run()){
-            $admin->update();
-            $this->session->set_flashdata('success', 'Data Berhasil Di Update');
-        }
-
-        $data["admin"] = $admin->getById($id);
-        if (!$data["admin"]) show_404();
-
-        $this->load->view("admin/register/edit_form", $data);
-    }
-
-    public function delete($id = null)
-    {
-        if (!isset($id)) show_404();
-
-        if ($this->register_model->delete($id));{
-            redirec(site_url('admin/register'));
-        }
+        $data = array(
+            'username' => $username,
+            'password' => $password,
+            'nama_lengkap' => $nama_lengkap,
+            'tempat_lahir' => $tempat_lahir,
+            'tanggal_lahir' => $tanggal_lahir,
+            'alamat' => $alamat,
+            'email' => $email
+        );
+        $this->register_model->tambah($data, 'admin');
     }
 
 }
-
