@@ -9,11 +9,12 @@ class register extends CI_Controller
         parent::__construct();
         $this->load->model('register_model');
         $this->load->helper('url');
+        $this->load->library('form_validation');
     }
 
     public function index()
     {
-        $data['admin'] = $this->register_model->register_data()->result();
+        $data['admin']=$this->register_model->register_data()->result();
         $this->load->view('admin/register/registrasi', $data);
     }
 
@@ -22,6 +23,11 @@ class register extends CI_Controller
     }
 
     public function tambahkan(){
+
+        $this->form_validation->set_rules('username', 'Username', 'required|is_unique[users.username]');
+        $this->form_validation->set_rules('password', 'Password', 'required');
+        $this->form_validation->set_rules('')
+
         $username=$this->input->post('username');
         $password=$this->input->post('password');
         $nama_lengkap=$this->input->post('nama_lengkap');
@@ -40,6 +46,15 @@ class register extends CI_Controller
             'email' => $email
         );
         $this->register_model->tambah($data, 'admin');
+        $this->load->view('admin/login');
+    }
+
+    public function login(){
+        $this->load->view('admin/login')
+    }
+
+    public function masuk(){
+
     }
 
 }

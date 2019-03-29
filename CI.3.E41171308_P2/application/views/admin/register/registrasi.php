@@ -29,7 +29,7 @@
       <div class="card card-login mx-auto mt-5">
         <div class="card-header">Registrasi Admin</div>
         <div class="card-body">
-          <form action="<?php base_url('index.php/admin/register/tambahkan') ?>" method="post" enctype="multipart/form-data" >
+          <form action="<?php echo site_url(). 'admin/register/tambahkan'; ?>" method="post" enctype="multipart/form-data" >
             <div class="form-group">
               <div class="form-label-group">
                 <input type="text" id="inputUsername" class="form-control" placeholder="Useraname" required="required" autofocus="autofocus"
@@ -79,19 +79,20 @@
                 <label for="inputEmail">Email</label>
               </div>
             </div>
-            <div class="form-group">
-              <div class="checkbox">
-                <label>
-                  <input type="checkbox" value="remember-me">
-                  Remember Password
-                </label>
-              </div>
-            </div>
-            <a class="btn btn-primary btn-block" name="button" id="button" type="button" value="save" href="">Register</a>
+            <button type="submit" class="btn btn-primary">Registrasi</button>
           </form>
         </div>
       </div>
     </div>
+
+    <style type="text/css">
+    body {
+      width: auto;
+      height: auto;
+      background-image: url('bg.jpg');
+    }
+
+    </style>
 
     <!-- Bootstrap core JavaScript-->
     <script src="<?php echo base_url('admin/vendor/jquery/jquery.min.js');?>"></script>
