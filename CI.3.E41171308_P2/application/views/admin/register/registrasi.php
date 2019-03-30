@@ -32,51 +32,58 @@
           <form action="<?php echo site_url(). 'admin/register/tambahkan'; ?>" method="post" enctype="multipart/form-data" >
             <div class="form-group">
               <div class="form-label-group">
-                <input type="text" id="inputUsername" class="form-control" placeholder="Useraname" required="required" autofocus="autofocus"
+                <input type="text" id="inputUsername" class="form-control" placeholder="Useraname" value="<?php echo set_value('username'); ?>" required="required" autofocus="autofocus"
                 name="username">
                 <label for="inputUsername">Username</label>
+                <?php echo form_error('username'); ?>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required"
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" value="<?php echo set_value('password'); ?>"  required="required"
                 name="password">
                 <label for="inputPassword">Password</label>
+                <?php echo form_error('password'); ?>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="text" id="inputNama" class="form-control" placeholder="Nama" required="required" autofocus="autofocus"
+                <input type="text" id="inputNama" class="form-control" placeholder="Nama" value="<?php echo set_value('nama_lengkap'); ?>" required="required" autofocus="autofocus"
                 name="nama_lengkap">
                 <label for="inputNama">Nama Lengkap</label>
+                <?php echo form_error('nama_lengkap'); ?>
                 </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="text" id="inputTL" class="form-control" placeholder="Tempat Lahir" required="required"
+                <input type="text" id="inputTL" class="form-control" placeholder="Tempat Lahir" value="<?php echo set_value('tempat_lahir'); ?>" required="required"
                 name="tempat_lahir">
                 <label for="inputTL">Tempat lahir</label>
+                <?php echo form_error('tempat_lahir'); ?>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="date" id="inputTanggatLahir" class="form-control" placeholder="Tanggal Lahir" required="required"
+                <input type="date" id="inputTanggatLahir" class="form-control" placeholder="Tanggal Lahir" value="<?php echo set_value('tanggal_lahir'); ?>" required="required"
                 name="tanggal_lahir">
                 <label for="Tanggal">Tanggal Lahir</label>
+                <?php echo form_error('tanggal_lahir'); ?>
             </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="text" id="inputAlamat" class="form-control" placeholder="Alamat" required="required"
+                <input type="text" id="inputAlamat" class="form-control" placeholder="Alamat" value="<?php echo set_value('alamat'); ?>" required="required"
                 name="alamat">
                 <label for="inputAlamat">Alamat</label>
+                <?php echo form_error('alamat'); ?>
               </div>
             </div> 
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="required" autofocus="autofocus"
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" value="<?php echo set_value('email'); ?>" required="required" autofocus="autofocus"
                 name="email">
                 <label for="inputEmail">Email</label>
+                <?php echo form_error('email'); ?>
               </div>
             </div>
             <button type="submit" class="btn btn-primary">Registrasi</button>

@@ -2,8 +2,7 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class register extends CI_Controller
-{
+class register extends CI_Controller{    
     function __construct()
     {
         parent::__construct();
@@ -24,9 +23,17 @@ class register extends CI_Controller
 
     public function tambahkan(){
 
-        $this->form_validation->set_rules('username', 'Username', 'required|is_unique[users.username]');
+        $this->form_validation->set_rules('username', 'Username', 'required');
         $this->form_validation->set_rules('password', 'Password', 'required');
-        $this->form_validation->set_rules('')
+        $this->form_validation->set_rules('nama_lengkap', 'Nama Lengkap', 'required');
+        $this->form_validation->set_rules('tempat_lahir', 'Tempa Lahir', 'required');
+        $this->form_validation->set_rules('tanggal_lahir', 'Tanggal Lahir', 'required');
+        $this->form_validation->set_rules('alamat', 'Alamat', 'required');
+        $this->form_validation->set_rules('email', 'Email', 'required');
+
+        if ( $this->form_validation->run() === FALSE ) {
+                $this->load->view('admin/register/registrasi');
+        } else {
 
         $username=$this->input->post('username');
         $password=$this->input->post('password');
@@ -49,12 +56,5 @@ class register extends CI_Controller
         $this->load->view('admin/login');
     }
 
-    public function login(){
-        $this->load->view('admin/login')
-    }
-
-    public function masuk(){
-
-    }
-
+ }
 }
