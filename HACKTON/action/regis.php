@@ -6,9 +6,10 @@ if (isset($_POST['daftar'])) {
     $email = $_POST['email'];
     $pw = $_POST['password'];
     $no_hp = $_POST['no_hp'];
+    $bank = $_POST['bank'];
     $data = "investor";
 
-    $sql = "INSERT INTO datainvestor (id, nama_lengkap, email, password, no_hp, level) VALUES ('','$nama', '$email','$pw','$no_hp','$data')";
+    $sql = "INSERT INTO datainvestor (id, nama_lengkap, email, password, no_hp, level, kode_bank) VALUES ('','$nama', '$email','$pw','$no_hp','$data','$bank')";
   
     }
     if (mysqli_query($koneksi, $sql)) {
@@ -17,7 +18,11 @@ if (isset($_POST['daftar'])) {
         echo "Error: " . $sql . "<br>" . mysqli_error($koneksi);
     }
 
+    $login = mysqli_query($koneksi,"select id from datainvestor where datainvestor.email='$email' and datainvestor.password='$pw'");
+    $data = mysqli_fetch_assoc($login);
+    $id = $data['id'];
+
     mysqli_close($koneksi);
-    header("location: ../data-bank.php");
+    header("location: ../data-bank.php?id=$id");
  
 ?>

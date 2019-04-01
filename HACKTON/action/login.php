@@ -3,7 +3,7 @@
 session_start();
 
 // menghubungkan php dengan koneksi database
-include '../koneksi.php';
+include 'koneksi.php';
 
 // menangkap data yang dikirim dari form login
 $email = $_POST['email'];
@@ -12,7 +12,6 @@ $password = $_POST['password'];
 
 // menyeleksi data user dengan username dan password yang sesuai
 $login = mysqli_query($koneksi, "SELECT * from datainvestor where email='$email' and password='$password'");
-// menghitung jumlah data yang ditemukan
 $cek = mysqli_num_rows($login);
 
 // cek apakah username dan password di temukan pada database
@@ -29,23 +28,24 @@ if ($cek > 0) {
         header("location:../pages/siswa/pages/");
     } else if ($data['level'] == "investor") {
         // buat session login dan username
-        $_SESSION['email'] = $username;
+        $_SESSION['email'] = $email;
         $_SESSION['level'] = "investor";
         // alihkan ke halaman dashboard pegawai
-        header("location:../pages/teknisi/pages/");
+        header("location:../peminjam");
     } else if ($data['level'] == "Customer") {
         // buat session login dan username
         $_SESSION['username'] = $username;
         $_SESSION['level'] = "Customer";
         // alihkan ke halaman dashboard pengurus
         header("location:halaman_pengurus.php");
-    } else {}}
-        else{}
+
+    }else{
 
         // alihkan ke halaman login kembali
-    //     header("location:../loginadmin.php?pesan=belum_login");
-    // }
-// } else {
-//     header("location: ../login.php?pesan=gagal");
-// }
- 
+        header("location:../login.php?pesan=belum_login");
+    }
+}else{
+    header("location: ../login.php?pesan=gagal");
+}
+
+?>
