@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_8a96ca04bce00334e6a65e5b8671ce02b5ba1245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_d25ac56a9614028a18e3b125c468c9b7a10c81ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_9a122cb3c44a074ba7e6cb7e1d908569459ab5f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_90450f2fa4ea9a3d5bf0868faa5e9b5c12a57581.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.1_0e5e72d9625a11800671aeaeb09f1e83ea8d0f41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_19bbde5f578dda660e705f79473f9f3b8a86e478.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_cf9025591651f2444a042bac063a3ae0015c4da6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_b7b262a3bbe1b8f310272625997ac178240d82f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_9e78274f810886ce8fe3422c733c9dca502ad911.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.1_eff1d400426ef9a0fbccb238eff271a8afb20dbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_c01ff059405030ff402f260aeed05da5031a0d2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.1_4046ecb418c12933c1384b4e3ade7127c693c98e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.1_1c64c7b5b14e8032416d854543b9592668bb5d2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_31720a7f0cda3a90fd725a6b1786e034f181dcbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_5f45441f9885343186671780f620c1efc0e846db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.1_3211c69e905f4ada7cc7106af9e4ae5a50f0bc0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_10d542e281736f5fbc650d006a98e3846b19abe8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_6c25a9315a5a2e74f98d92c7ae0f026a60eea9d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_8a789f1394597422fad0f8be8781a1dbedea9a0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.1_c26baf6d65f170109b25278390689cb9de56d0e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_d671851ae4620acb7d9bcddcc34ce27dd3aabc4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_50eccd22f6e1ec69b855fb54d484a893e928a9d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_c5535c2ea18e4c9d2ce51dc8f9c5cee9411461e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_f78753da35cad0d5ea4b7f92124c76df35d737f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.1_0f8947b92973178b11293557899c43fd28632509.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.1_1896d88831fbd49375ec4b56c4c0fe6f9dbb91a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.1_95922176660a1111e33b89daadb13d6a945b28f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.1\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\Users\Galang\AndroidStudioProjects\ScrollingText\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.1_c91ff000ab15f8386dfffa950a4e7cf2e3518e04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Galang\android-fundamentals-master\ScrollingText\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.1_7fda4a1eacf18609e7e7ecf5e5cbc7d543b98089.jar" />
+    </item>
+
+</items>
