@@ -36,7 +36,7 @@ class register extends CI_Controller{
         } else {
 
         $username=$this->input->post('username');
-        $password=$this->input->post('password');
+        $password= password_hash($this->input->post('password'), PASSWORD_DEFAULT);
         $nama_lengkap=$this->input->post('nama_lengkap');
         $tempat_lahir=$this->input->post('tempat_lahir');
         $tanggal_lahir=$this->input->post('tanggal_lahir');
@@ -53,8 +53,40 @@ class register extends CI_Controller{
             'email' => $email
         );
         $this->register_model->tambah($data, 'admin');
-        $this->load->view('admin/login');
+        $this->load->view('admin/register/login');
     }
 
  }
+
+    public function login(){
+
+        $this->load->view('admin/login');
+    }
+
+    public function masuk(){
+
+        $this->form_validation->set_rules('username', 'Username', 'required');
+        $this->form_validation->set_rules('password', 'Password', 'required');
+
+        if ($this->form_validation->run() === FALSE) {
+            $this->load->view('admin/login');
+        } else {
+
+
+            $username = $this->input->post('username');
+            $cek = $this->register_model->cekusername($username);
+
+            if ( $cek->num_rows() === 1 ) {
+                $password = $this->input->post('password');
+
+                if (password_verify($password, $cek->row()->password)){
+                    echo 'selamat datang admin';
+                } else {
+                echo 'username anda salah';
+                }
+            } else {
+            echo 'password anda salah';
+        }
+      }
+    }
 }
