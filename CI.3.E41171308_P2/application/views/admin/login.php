@@ -28,17 +28,20 @@
       <div class="card card-login mx-auto mt-5">
         <div class="card-header">Login Admin</div>
         <div class="card-body">
-          <form>
+
+          <form action="<?php echo site_url(). 'admin/register/masuk'; ?>" method="post" enctype="multipart/form-data" >
             <div class="form-group">
               <div class="form-label-group">
-                <input type="email" id="inputEmail" class="form-control" placeholder="Username/Email" required="required" autofocus="autofocus">
-                <label for="inputEmail">Username / Email</label>
+                <input type="email" id="inputEmail" class="form-control" placeholder="Username/Email" required="required" autofocus="autofocus" name="username">
+                <label for="inputEmail">Username</label>
+                <?php echo form_error('username'); ?>
               </div>
             </div>
             <div class="form-group">
               <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required" name="password">
                 <label for="inputPassword">Password</label>
+                <?php echo form_error('password'); ?>
               </div>
             </div>
             <div class="form-group">
@@ -49,7 +52,7 @@
                 </label>
               </div>
             </div>
-            <a class="btn btn-primary btn-block" href="admin">Login</a>
+            <a class="btn btn-primary btn-block" href="">Login</a>
           </form>
           <div class="text-center">
             <a class="d-block small mt-3" href="registrasi">Daftar Akun</a>
