@@ -53,7 +53,7 @@ class register extends CI_Controller{
             'email' => $email
         );
         $this->register_model->tambah($data, 'admin');
-        $this->load->view('admin/register/login');
+        $this->load->view('admin/login');
     }
 
  }
@@ -75,18 +75,17 @@ class register extends CI_Controller{
 
             $username = $this->input->post('username');
             $cek = $this->register_model->cekusername($username);
-
             if ( $cek->num_rows() === 1 ) {
                 $password = $this->input->post('password');
 
-                if (password_verify($password, $cek->row()->password)){
-                    echo 'selamat datang admin';
-                } else {
-                echo 'username anda salah';
-                }
+                if (password_verify($password, $cek->row()->password)) {
+                    $this->load->view('admin/admin'); 
+                } 
             } else {
-            echo 'password anda salah';
-        }
+            echo 'maaf username salah';
+            
+            }
       }
+    
     }
 }
