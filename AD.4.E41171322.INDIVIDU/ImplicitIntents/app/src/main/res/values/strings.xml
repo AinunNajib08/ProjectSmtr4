@@ -1,0 +1,17 @@
+
+<resources>
+    <string name="app_name">Implicit Intents</string>
+
+    <string name="edittext_uri">http://google.com</string>
+
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Polije Kampus Bondowoso</string>
+
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">Kampus Dua Polije</string>
+
+    <string name="button_share">Share This Text</string>
+
+</resources>
