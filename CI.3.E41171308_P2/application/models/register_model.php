@@ -18,5 +18,10 @@ class register_model extends CI_Model{
         return $this->db->get_where($table,$where);
     }
 
+    function cekusername($username){
+
+        return $this->db->get_where('admin', ['username' => $username]);
+    }
+
 
 }
