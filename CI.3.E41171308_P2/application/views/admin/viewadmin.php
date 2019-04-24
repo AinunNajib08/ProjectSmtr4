@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,6 +24,7 @@
     <link href="<?php echo base_url('admin/css/sb-admin.css');?>" rel="stylesheet">
 
   </head>
+
   <body id="page-top">
 
     <nav class="navbar navbar-expand navbar-dark bg-dark static-top">
@@ -64,8 +64,7 @@
 
     </nav>
 
-    <div id="wrapper">
-      <div class="container-fluid">
+<div id="wrapper">
 
       <!-- Sidebar -->
       <ul class="sidebar navbar-nav">
@@ -104,57 +103,76 @@
       </ul>
 
       <div id="content-wrapper">
-        <form action="<?php echo site_url(). 'admin/produk/tambah'; ?>" method="post" enctype="multipart/form-data">
-          <div class="produk-form col-md-8 mt-4 mb-4">
-            <div class="input-group">
-                <label style="margin-right: 70px; margin-top: 10px; font-family: Times New Roman; font-size: 13pt;">Nama Barang</label>
-                <input type="text" name="nama_barang" class="form-control" placeholder="Nama Barang" required autofocus="">
-            </div>
-            <br/>
-            <div class="input-group">
-                <label style="margin-right: 70px; margin-top: 10px; font-family: Times New Roman; font-size: 13pt;">Harga Barang</label>
-                <input type="text" name="harga_barang" class="form-control" placeholder="Harga Barang" required autofocus="">
-            </div>
-            <br/>
-            <div class="input-group">
-                <label style="margin-right: 80px; margin-top: 10px; font-family: Times New Roman; font-size: 13pt;">Stok Barang</label>
-                <input type="text" name="stok_barang" class="form-control" placeholder="Stok Barang" required autofocus="">
-            </div>
-            <br/>
-             <div class="form-group col-md-12">
-                <label style="margin-right: 45px; margin-top: 10px; font-family: Times New Roman; font-size: 13pt;">Deskripsi Barang</label>
-                <textarea name="deskripsi_barang" class="form-control" style="height: 150px;" placeholder="Deskripsi Barang"> </textarea>
-              </div>
-              <div class="input-group col-md-8">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                  <label style="margin-right: 45px; margin-top: 5px; font-family: Times New Roman; font-size: 13pt;">Gambar Barang</label>
-                <input type="file" name="gambar" required>
-              </div>
-              <br/>
-              <button class="btn btn-primary mr-3 ml-3"  type="submit">Post kiriman</button>
-          </div>
-        </form>
 
-        
-
+        <div class="container-fluid">
+ <section class="objekwisata">
+  <div class="container" >
+      <div class="row">
+        <div class="col">
         </div>
-        <!-- /.container-fluid -->
+      </div>
+  </div>
+  <div class="tombol ml-4 mt-3">
+    <a href="" class="btn btn-primary">Tambahkan Produk</a>
+    <h5 class="mt-4">Produk</h5>
+  </div>
+<div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Kode Agenda</th>
+                      <th>Judul Agenda</th>
+                      <th>Gambar</th>
+                      <th>isi Agenda</th>
+                      <th>Tanggal Mulai</th>
+                      <th>Tanggal Selesai</th>
+                      <th>Lokasi</th>
+                      <th>Aksi</th>
+                    </tr>
+                    </thead>
+                  <tbody>
+                    <tr>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                      <th></th>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th>Kode Agenda</th>
+                      <th>Judul Agenda</th>
+                      <th>Gambar</th>
+                      <th>isi Agenda</th>
+                      <th>Tanggal Mulai</th>
+                      <th>Tanggal Selesai</th>
+                      <th>Lokasi</th>
+                      <th>Aksi</th>
+                    </tr>
+                    </tfoot>
+                </table>
+              </div>
+</div>
+</section>
+</div>
 
-        <!-- Sticky Footer -->
-        <footer class="sticky-footer">
+
+<footer class="sticky-footer bg-dark">
           <div class="container my-auto">
-            <div class="copyright text-center my-auto">
-              <span>Copyright © A shop.com</span>
+            <div class="copyright text-center my-auto text-white">
+              <span>copyright@perisai_diri_jember.2019</span>
+              <br/>
+              <span>Design By <a href="">Ardiyan_Ramadhan</a></span>
             </div>
           </div>
-        </footer>
-
-      </div>
-      <!-- /.content-wrapper -->
-
-    </div>
+</footer>
+</div>
     <!-- /#wrapper -->
-    
 
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">

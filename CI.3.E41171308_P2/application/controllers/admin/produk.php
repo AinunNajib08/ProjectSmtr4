@@ -31,13 +31,16 @@ class produk extends CI_Controller{
         $gambar=$this->input->post('gambar');
 
         $data = array(
-            'username' => $username,
-            'password' => $password,
-            'nama_lengkap' => $nama_lengkap,
-            'tempat_lahir' => $tempat_lahir,
-            'tanggal_lahir' => $tanggal_lahir,
-            'alamat' => $alamat,
-            'email' => $email
+            'nama_barang' => $nama_barang,
+            'harga_barang' => $harga_barang,
+            'stok_barang' => $stok_barang,
+            'deskripsi_barang' => $deskripsi_barang,
+            'gambar' => $gambar
         );
+    }
+
+    public function vadmin()
+    {
+        $this->load->view('admin/viewadmin.php');
     }
 }
