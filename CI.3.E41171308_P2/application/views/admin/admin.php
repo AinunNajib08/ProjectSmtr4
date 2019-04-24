@@ -64,15 +64,14 @@
 
     </nav>
 
-    <div id="wrapper">
-      <div class="container-fluid">
+     <div id="wrapper">
 
       <!-- Sidebar -->
       <ul class="sidebar navbar-nav">
         <li class="nav-item active">
           <a class="nav-link" href="index.html">
             <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Produk</span>
+            <span>Dashboard</span>
           </a>
         </li>
         <li class="nav-item dropdown">
@@ -104,6 +103,9 @@
       </ul>
 
       <div id="content-wrapper">
+
+        <div class="container-fluid">
+          <div id="content-wrapper">
         <form action="<?php echo site_url(). 'admin/produk/tambah'; ?>" method="post" enctype="multipart/form-data">
           <div class="produk-form col-md-8 mt-4 mb-4">
             <div class="input-group">
@@ -138,13 +140,16 @@
         
 
         </div>
+          </div>
+
+        </div>
         <!-- /.container-fluid -->
 
         <!-- Sticky Footer -->
         <footer class="sticky-footer">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright © A shop.com</span>
+              <span>Copyright © Your Website 2018</span>
             </div>
           </div>
         </footer>

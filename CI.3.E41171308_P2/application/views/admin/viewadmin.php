@@ -113,48 +113,38 @@
       </div>
   </div>
   <div class="tombol ml-4 mt-3">
-    <a href="" class="btn btn-primary">Tambahkan Produk</a>
+    <a href="addproduk" class="btn btn-primary">Tambahkan Produk</a>
     <h5 class="mt-4">Produk</h5>
   </div>
-<div class="card-body">
+ <div class="card mb-3">
+            <div class="card-header">
+              <i class="fas fa-table"></i>
+              Data Barang Produk</div>
+            <div class="card-body">
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
-                      <th>Kode Agenda</th>
-                      <th>Judul Agenda</th>
+                      <th>Nama Barang</th>
+                      <th>Harga Barang</th>
                       <th>Gambar</th>
-                      <th>isi Agenda</th>
-                      <th>Tanggal Mulai</th>
-                      <th>Tanggal Selesai</th>
-                      <th>Lokasi</th>
-                      <th>Aksi</th>
+                      <th>Stok Barang</th>
+                      <th>Deskripsi Barang</th>
+                      <th>Gambar</th>
+                      <th>Opsi</th>
                     </tr>
-                    </thead>
+                  </thead>
                   <tbody>
                     <tr>
-                      <th></th>
-                      <th></th>
-                      <th></th>
-                      <th></th>
-                      <th></th>
-                      <th></th>
-                      <th></th>
-                      <th></th>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
                     </tr>
                   </tbody>
-                  <tfoot>
-                    <tr>
-                      <th>Kode Agenda</th>
-                      <th>Judul Agenda</th>
-                      <th>Gambar</th>
-                      <th>isi Agenda</th>
-                      <th>Tanggal Mulai</th>
-                      <th>Tanggal Selesai</th>
-                      <th>Lokasi</th>
-                      <th>Aksi</th>
-                    </tr>
-                    </tfoot>
                 </table>
               </div>
 </div>
