@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Siapa Penulis Itu</string>
+    <string name="instructions">Enter a book name, or part of book name, or just some text from a book
+    to find the full book title and who wrote the book</string>
+    <string name="input_hint">Tekan Judul Buku</string>
+    <string name="button_text">Cari Buku</string>
+    <string name="no_search_term">Please enter a search term</string>
+    <string name="no_network">Please check your network connection and try again.</string>
+    <string name="no_results">No Results Found</string>
+    <string name="title_activity_network_utils">NetworkUtils</string>
+</resources>

@@ -64,7 +64,7 @@ class produk_model extends CI_Model{
 		if (!empty($_FILES["gambar"]["name"])) {
 			$this->gambar = $this->_uploadImage();
 		} else {
-			$this->gambar = $post["old_image"]
+			$this->gambar = $post["old_image"];
 		}
 
 		$this->db->update($this->_table, $this, array('id' => $post['id']));
