@@ -13,31 +13,27 @@ class produk extends CI_Controller{
 
     public function index()
     {
-        $data['tabel_barang']=$this->produk_model->produk_data()->result();
-        $this->load->view('admin/admin', $data);
+        $data['tabel_barang']=$this->produk_model->getAll();
+        $this->load->view('admin/viewadmin', $data);
     }
 
     public function addproduk()
     {
         $this->load->view('admin/admin');
+
     }
 
     public function tambah()
     {
-        $nama_barang=$this->input->post('nama_barang');
-        $harga_barang= $this->input->post('harga_barang');
-        $stok_barang=$this->input->post('stok_barang');
-        $deskripsi_barang=$this->input->post('deskripsi_barang');
-        $gambar=$this->input->post('gambar');
+        $produk = $this->produk_model;
+        $validation = $this->form_validation;
+        $validation->set_rules($produk->rules());
 
-        $data = array(
-            'username' => $username,
-            'password' => $password,
-            'nama_lengkap' => $nama_lengkap,
-            'tempat_lahir' => $tempat_lahir,
-            'tanggal_lahir' => $tanggal_lahir,
-            'alamat' => $alamat,
-            'email' => $email
-        );
+        if ($validation->run()) {
+            $produk->save();
+            $this->session->set_flashdata('success', 'data berhasil tersimpan');
+        }
+
+        $this->load->view("admin/admin");
     }
 }
